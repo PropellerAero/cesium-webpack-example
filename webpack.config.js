@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // The path to the cesium source code
-const cesiumSource = 'node_modules/cesium/Source';
+const cesiumSource = 'node_modules/@propelleraero/cesium/Source';
 const cesiumWorkers = '../Build/Cesium/Workers';
 
 module.exports = [{

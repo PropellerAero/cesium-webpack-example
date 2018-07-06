@@ -1,7 +1,7 @@
 require('cesium/Widgets/widgets.css');
 require('./css/main.css');
 
-var Cesium = require('cesium/Cesium');
+var Cesium = require('@propelleraero/cesium/Source/Cesium');
 
 // Example app
 
