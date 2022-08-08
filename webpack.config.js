@@ -52,6 +52,6 @@ module.exports = {
             CESIUM_BASE_URL: JSON.stringify('')
         })
     ],
-    mode: 'development',
+    mode: 'production',
     devtool: 'eval',
 };

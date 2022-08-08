@@ -1,6 +1,21 @@
-import { Ion, Viewer, createWorldTerrain, createOsmBuildings, Cartesian3, Math } from "cesium";
+// import { Cartesian3, createOsmBuildings, createWorldTerrain, Ion, Math, Viewer } from "cesium";
+
+// import { Cartesian3 } from 'cesium'
+import Cartesian3 from 'cesium/Core/Cartesian3';
+
+console.log(new Cartesian3(0,1,2))
+
+/*
+import Cartesian3 from 'cesium/Core/Cartesian3';
+import createWorldTerrain from 'cesium/Core/createWorldTerrain';
+import Ion from 'cesium/Core/Ion';
+import Math from 'cesium/Core/Math';
+import createOsmBuildings from 'cesium/Scene/createOsmBuildings';
+import Viewer from 'cesium/Widgets/Viewer/Viewer';
+
+
 import "cesium/Widgets/widgets.css";
-import "../src/css/main.css"
+import "../src/css/main.css";
 
 // Your access token can be found at: https://cesium.com/ion/tokens.
 // This is the default access token
@@ -22,3 +37,5 @@ viewer.camera.flyTo({
     pitch : Math.toRadians(-15.0),
   }
 });
+
+*/
