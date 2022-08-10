@@ -1,9 +1,12 @@
 // import { Cartesian3, createOsmBuildings, createWorldTerrain, Ion, Math, Viewer } from "cesium";
 
-// import { Cartesian3 } from 'cesium'
-import Cartesian3 from 'cesium/Core/Cartesian3';
+import { Cartesian3 } from 'cesium'
+// import Cartesian3 from 'cesium/Core/Cartesian3';
+//import Viewer from 'cesium/Widgets/Viewer/Viewer';
 
 console.log(new Cartesian3(0,1,2))
+
+
 
 /*
 import Cartesian3 from 'cesium/Core/Cartesian3';
