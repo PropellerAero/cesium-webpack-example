@@ -1,6 +1,8 @@
-import { Cartesian3 } from 'cesium';
+import { Cartesian3, CesiumWidget } from 'cesium';
 
 const cartesian = new Cartesian3(1,1,1);
+const widget = new CesiumWidget();
+
 console.log(Cartesian3.magnitude(cartesian))
 
 /*

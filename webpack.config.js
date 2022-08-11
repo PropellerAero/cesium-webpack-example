@@ -5,6 +5,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
+
 
 module.exports = {
     context: __dirname,
@@ -50,6 +52,10 @@ module.exports = {
             ]
         }]
     },
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.html'
@@ -67,6 +73,6 @@ module.exports = {
             CESIUM_BASE_URL: JSON.stringify('')
         })
     ],
-    mode: 'development',
-    devtool: 'eval',
+    mode: 'production',
+    // devtool: ''
 };
